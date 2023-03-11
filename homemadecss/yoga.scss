@@ -23,9 +23,9 @@ $nixie: 'Nixie One', cursive;
     .r-1{
         background-color:$green;
     .col-1{
-         h3{
+         h1{
             color:$lightgreen;
-            font-size:6rem;
+            font-size:5rem;
          }
         h2{
             margin-top: 0;
@@ -62,7 +62,6 @@ $nixie: 'Nixie One', cursive;
                 li{
                     a{
                         color:$lightgreen;
-                        background-color:$green;
                     }
                 }
             }
@@ -227,7 +226,10 @@ $nixie: 'Nixie One', cursive;
                 text-align:left;
                 margin:0 auto;
                 font-size:2rem;
-                width:30%;
+                width:50%;
+                tbody{
+                    width:50%;
+                }
                 label{
                     font-size:1.5rem;
                     font-weight:900;
@@ -330,7 +332,7 @@ $nixie: 'Nixie One', cursive;
         // background-color: $pink;
         .r-1{
         .col-1{
-             h3{
+             h1{
                 font-size:2rem;
              }
            }
@@ -340,20 +342,33 @@ $nixie: 'Nixie One', cursive;
 .c-2{
     .r-3{
         .col-3{
+            padding:0rem !important;
             h1{
-                font-size:3rem;
+                font-size:6rem !important;
             }
         }
     }
-}
+ }
 // 3rd parts starts here,
 .c-3{
       .r-4{
          .col-6{
+            text-align: left !important;
             a{
-                font-size: 3rem;
+                font-size: 3rem !important;
             }
          }
       }
+ }
+//  4rth parts starts here,
+.c-8{
+      .r-9{
+            .col39{
+                .col40,.col41,.col42,.col43{
+                    margin-left: 4rem;
+                }
+            }
+      }
 }
 }
+

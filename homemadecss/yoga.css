@@ -16,9 +16,9 @@ html {
 .container-fluid .c-1 .r-1 {
   background-color: #077054;
 }
-.container-fluid .c-1 .r-1 .col-1 h3 {
+.container-fluid .c-1 .r-1 .col-1 h1 {
   color: #99fa99;
-  font-size: 6rem;
+  font-size: 5rem;
 }
 .container-fluid .c-1 .r-1 .col-1 h2 {
   margin-top: 0;
@@ -51,7 +51,6 @@ html {
 }
 .container-fluid .c-1 .r-2 .col-2 ul .submenu ul li a {
   color: #99fa99;
-  background-color: #077054;
 }
 .container-fluid .c-1 .r-2 .col-2 ul li:hover .submenu {
   display: block;
@@ -164,7 +163,10 @@ html {
   text-align: left;
   margin: 0 auto;
   font-size: 2rem;
-  width: 30%;
+  width: 50%;
+}
+.container-fluid .c-6 .r-7 .col-3 table tbody {
+  width: 50%;
 }
 .container-fluid .c-6 .r-7 .col-3 table label {
   font-size: 1.5rem;
@@ -243,13 +245,22 @@ html {
 }
 
 @media only screen and (max-width: 600px) {
-  .c-1 .r-1 .col-1 h3 {
+  .c-1 .r-1 .col-1 h1 {
     font-size: 2rem;
   }
+  .c-2 .r-3 .col-3 {
+    padding: 0rem !important;
+  }
   .c-2 .r-3 .col-3 h1 {
-    font-size: 3rem;
+    font-size: 6rem !important;
+  }
+  .c-3 .r-4 .col-6 {
+    text-align: left !important;
   }
   .c-3 .r-4 .col-6 a {
-    font-size: 3rem;
+    font-size: 3rem !important;
+  }
+  .c-8 .r-9 .col39 .col40, .c-8 .r-9 .col39 .col41, .c-8 .r-9 .col39 .col42, .c-8 .r-9 .col39 .col43 {
+    margin-left: 4rem;
   }
 }/*# sourceMappingURL=yoga.css.map */
