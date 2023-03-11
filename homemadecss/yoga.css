@@ -16,9 +16,19 @@ html {
 .container-fluid .c-1 .r-1 {
   background-color: #077054;
 }
+.container-fluid .c-1 .r-1 .col-0 {
+  text-align: right;
+  padding: 0rem;
+  font-size: 2rem;
+  display: none;
+}
+.container-fluid .c-1 .r-1 .col-0 a button {
+  color: #ff2f2f;
+}
 .container-fluid .c-1 .r-1 .col-1 h1 {
   color: #99fa99;
   font-size: 5rem;
+  margin-top: 0rem;
 }
 .container-fluid .c-1 .r-1 .col-1 h2 {
   margin-top: 0;
@@ -262,5 +272,15 @@ html {
   }
   .c-8 .r-9 .col39 .col40, .c-8 .r-9 .col39 .col41, .c-8 .r-9 .col39 .col42, .c-8 .r-9 .col39 .col43 {
     margin-left: 4rem;
+  }
+  .col-0 {
+    display: inline !important;
+  }
+  .col-0 a button {
+    background: none;
+    color: #ff2f2f;
+  }
+  .r-2 .col-2 {
+    display: none;
   }
 }/*# sourceMappingURL=yoga.css.map */

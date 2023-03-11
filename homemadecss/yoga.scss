@@ -22,10 +22,23 @@ $nixie: 'Nixie One', cursive;
     // background-color: $pink;
     .r-1{
         background-color:$green;
+    .col-0{
+        text-align: right;
+        // background-color:$pink;
+        padding:0rem;
+        font-size: 2rem;
+        display: none;
+        a{
+            button{ 
+                color:#ff2f2f;
+            }
+        }
+    }    
     .col-1{
          h1{
             color:$lightgreen;
             font-size:5rem;
+            margin-top: 0rem;
          }
         h2{
             margin-top: 0;
@@ -370,5 +383,26 @@ $nixie: 'Nixie One', cursive;
             }
       }
 }
+// on/off button in navigation
+.col-0{
+        display:inline !important;
+        a{
+            button{ 
+                background:none;
+                color:#ff2f2f;
+            }
+        }
+    }
+    // to display:none of col-2 when we click on button then 
+    //  then .col-2 show if we apply javascript on ul then display:flex is a
+    //  a main problem and ul can be show in its (vertical) or its initial position
+    // but we have to want that ul is always show in flex-direction
+    // so we apply slidetoggle on .col-2(div) b/s ul is also include in it.
+    // so we have to apply (display:none;) in col-2
+.r-2{
+    .col-2{
+        display: none;
+    }
+}   
 }
 
