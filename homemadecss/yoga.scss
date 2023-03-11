@@ -23,9 +23,9 @@ $nixie: 'Nixie One', cursive;
     .r-1{
         background-color:$green;
     .col-1{
-         h1{
+         h3{
             color:$lightgreen;
-            font-size:5rem;
+            font-size:6rem;
          }
         h2{
             margin-top: 0;
@@ -324,4 +324,36 @@ $nixie: 'Nixie One', cursive;
               }
          }
 }
-
+// media-query starts from here 
+@media only screen and (max-width:600px){
+    .c-1{
+        // background-color: $pink;
+        .r-1{
+        .col-1{
+             h3{
+                font-size:3rem;
+             }
+           }
+          }
+        }
+// 2nd parts starts from here,
+.c-2{
+    .r-3{
+        .col-3{
+            h1{
+                font-size:6rem;
+            }
+        }
+    }
+}
+// 3rd parts starts here,
+.c-3{
+      .r-4{
+         .col-6{
+            a{
+                font-size: 3rem;
+            }
+         }
+      }
+}
+}

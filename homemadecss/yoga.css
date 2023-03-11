@@ -16,9 +16,9 @@ html {
 .container-fluid .c-1 .r-1 {
   background-color: #077054;
 }
-.container-fluid .c-1 .r-1 .col-1 h1 {
+.container-fluid .c-1 .r-1 .col-1 h3 {
   color: #99fa99;
-  font-size: 5rem;
+  font-size: 6rem;
 }
 .container-fluid .c-1 .r-1 .col-1 h2 {
   margin-top: 0;
@@ -51,6 +51,7 @@ html {
 }
 .container-fluid .c-1 .r-2 .col-2 ul .submenu ul li a {
   color: #99fa99;
+  background-color: #077054;
 }
 .container-fluid .c-1 .r-2 .col-2 ul li:hover .submenu {
   display: block;
@@ -239,4 +240,16 @@ html {
 }
 .container-fluid .c-8 .r-9 .col39 .col40 figcaption, .container-fluid .c-8 .r-9 .col39 .col41 figcaption, .container-fluid .c-8 .r-9 .col39 .col42 figcaption, .container-fluid .c-8 .r-9 .col39 .col43 figcaption {
   text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .c-1 .r-1 .col-1 h3 {
+    font-size: 3rem;
+  }
+  .c-2 .r-3 .col-3 h1 {
+    font-size: 6rem;
+  }
+  .c-3 .r-4 .col-6 a {
+    font-size: 3rem;
+  }
 }/*# sourceMappingURL=yoga.css.map */
