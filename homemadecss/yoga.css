@@ -244,10 +244,10 @@ html {
 
 @media only screen and (max-width: 600px) {
   .c-1 .r-1 .col-1 h3 {
-    font-size: 3rem;
+    font-size: 2rem;
   }
   .c-2 .r-3 .col-3 h1 {
-    font-size: 6rem;
+    font-size: 3rem;
   }
   .c-3 .r-4 .col-6 a {
     font-size: 3rem;
